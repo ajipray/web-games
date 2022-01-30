@@ -28,7 +28,7 @@
 
     - name: Run Container
       docker_container:
-        name: docker-ansible
+        name: docker-games
         image: "{{ image  }}"
         state: started
         published_ports:
